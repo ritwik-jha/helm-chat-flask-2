@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: dia-ml
+  name: dep1
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: dia-ml
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: dia-ml
+    spec:
+      containers:
+      - image: ritwik46/flask-image:v4
+        name: flask-image
+        resources: {}
+status: {}

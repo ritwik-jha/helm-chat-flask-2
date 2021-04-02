@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  ML-flask:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2021-04-02T13:18:28.934574651Z"
+    description: to deploy and expose an app predicting the chances of diabetes
+    digest: 80425653844631f25d1dff9bc118dd2ef0d73a7ecf12bca4d86903334ed2237a
+    name: ML-flask
+    urls:
+    - ML-flask-0.1.tgz
+    version: "0.1"
+generated: "2021-04-02T13:18:28.933816425Z"
